@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/spacer.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+    </style>
+    <title>Profile Scroller</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col s2"></div>
+            <div class="col s8">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="" id="image">
+                        <span class="card-title" id="name"></span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+
+                        <ul class="collection mt-3">
+                            <li class="collection-item">Age: <span id="age"></span></li>
+                            <li class="collection-item">Geneder: <span id="gender"></span></li>
+                            <li class="collection-item">Location: <span id="location"></span></li>
+                            <li class="collection-item">Email: <span id="email"></span></li>
+                        </ul>
+
+                    </div>
+                    <div class="card-action">
+                        <button class="btn w-100" id="next">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
